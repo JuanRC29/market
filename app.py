@@ -56,7 +56,7 @@ def sugerir_producto_tabla(carrito_actual, descuento_actual, modelo, reglas_df):
 # ----------------------------
 # INTERFAZ STREAMLIT
 # ----------------------------
-st.title("🛒 Recomendación de Productos con Apriori + Random Forest")
+st.title("🛒 Recomendación de Productos con Apriori + XGBoost")
 
 # Selector múltiple para carrito simulado
 carrito_usuario = st.multiselect("Selecciona los productos que el cliente ya tiene en su carrito:", options=todos_los_productos)
